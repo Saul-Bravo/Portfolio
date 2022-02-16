@@ -1,0 +1,14 @@
+.App {
+    align-self: center;
+    background-color: brown;
+}
+
+.Header {
+    background-color: #032B44;
+    height: 35vh;
+}
+
+.Title {
+    align-self: center;
+}
+
