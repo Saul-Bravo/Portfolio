@@ -1,0 +1,38 @@
+.Container {
+    margin-inline: 10vh;
+}
+
+.Title {
+    color: #dddd;
+    margin-top: 5vh;
+    font-size: 30px;
+}
+
+.ButtonContainer {
+    width: fit-content;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 35px;
+}
+
+.ButtonContainer:hover {
+    animation: pulse .50s infinite alternate;
+    transform-origin: center;
+}
+
+.ButtonText:hover {
+    background-color: #018445;
+}
+
+.ButtonText {
+    background-color: #065C91;
+    margin-inline: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #dddd;
+}
+
+@keyframes pulse {
+    to {transform: scale(1.1);}
+}

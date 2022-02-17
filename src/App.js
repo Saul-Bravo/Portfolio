@@ -1,16 +1,17 @@
-
+import React from 'react'
 import classes from './App.module.css';
+import Header from './Components/Header';
+import Technologies from './Components/Technologies';
 
-function App() {
-  return (
-    <div className={classes.App}>
-      <div className={classes.Header}>
-        <div className={classes.Presentation}>
-          
-        </div>
+class App extends React.Component {
+  render(){
+    return (
+      <div className={classes.App}>
+        <Header/>
+        <Technologies/>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
